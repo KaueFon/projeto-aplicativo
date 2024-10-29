@@ -23,5 +23,17 @@ namespace ProjetoIngressos
             nw.Show();
             this.Close();
         }
+
+        private void criarContalbl_Click(object sender, EventArgs e)
+        {
+            CriarDev nw = new CriarDev();
+            nw.Show();
+            this.Close();
+        }
+
+        private void entrarBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

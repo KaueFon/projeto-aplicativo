@@ -30,6 +30,8 @@
         {
             this.voltarBtn = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.nomeBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -38,8 +40,6 @@
             this.criarBtn = new System.Windows.Forms.Button();
             this.label = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,6 +51,7 @@
             this.voltarBtn.TabIndex = 14;
             this.voltarBtn.Text = "Voltar";
             this.voltarBtn.UseVisualStyleBackColor = true;
+            this.voltarBtn.Click += new System.EventHandler(this.voltarBtn_Click);
             // 
             // groupBox1
             // 
@@ -70,6 +71,24 @@
             this.groupBox1.Size = new System.Drawing.Size(310, 306);
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(40, 240);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(220, 20);
+            this.textBox1.TabIndex = 12;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(39, 215);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(113, 20);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Nacionalidade:";
             // 
             // nomeBox
             // 
@@ -122,6 +141,7 @@
             this.criarBtn.TabIndex = 4;
             this.criarBtn.Text = "Criar";
             this.criarBtn.UseVisualStyleBackColor = true;
+            this.criarBtn.Click += new System.EventHandler(this.criarBtn_Click);
             // 
             // label
             // 
@@ -145,24 +165,6 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Email:";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(40, 240);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(220, 20);
-            this.textBox1.TabIndex = 12;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(39, 215);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(113, 20);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "Nacionalidade:";
-            // 
             // CriarDev
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -171,6 +173,7 @@
             this.Controls.Add(this.voltarBtn);
             this.Controls.Add(this.groupBox1);
             this.Name = "CriarDev";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CriarDev";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

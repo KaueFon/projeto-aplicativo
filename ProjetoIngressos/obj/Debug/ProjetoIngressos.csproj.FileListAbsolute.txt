@@ -12,3 +12,6 @@ C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\obj\Debug\ProjetoIngre
 C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\obj\Debug\ProjetoIngressos.inicial.resources
 C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\obj\Debug\ProjetoIngressos.CriarUsuario.resources
 C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\obj\Debug\ProjetoIngressos.CriarDev.resources
+C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\obj\Debug\ProjetoIngressos.Avaliar.resources
+C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\obj\Debug\ProjetoIngressos.telaPrincipal.resources
+C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\obj\Debug\ProjetoIngressos.sob.resources

@@ -10,41 +10,39 @@ using System.Windows.Forms;
 
 namespace ProjetoIngressos
 {
-    public partial class CriarUsuario : Form
+    public partial class telaPrincipal : Form
     {
-        public CriarUsuario()
+        public telaPrincipal()
         {
             InitializeComponent();
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void toolStripLabel1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
+        private void avaliaçõesToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
-        private void voltarBtn_Click(object sender, EventArgs e)
+        private void deslogarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             inicial nw = new inicial();
             nw.Show();
             this.Close();
         }
 
-        private void criarBtn_Click(object sender, EventArgs e)
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Conta Criada!");
-            LoginUsuario nw = new LoginUsuario();
+            sob nw = new sob();
             nw.Show();
-            this.Close();
         }
     }
 }

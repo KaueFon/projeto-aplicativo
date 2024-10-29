@@ -10,26 +10,16 @@ using System.Windows.Forms;
 
 namespace ProjetoIngressos
 {
-    public partial class CriarDev : Form
+    public partial class Avaliar : Form
     {
-        public CriarDev()
+        public Avaliar()
         {
             InitializeComponent();
         }
 
         private void voltarBtn_Click(object sender, EventArgs e)
         {
-            inicial nw = new inicial();
-            nw.Show();
-            this.Close();
-        }
 
-        private void criarBtn_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Conta Criada!");
-            LoginDev nw = new LoginDev();
-            nw.Show();
-            this.Close();
         }
     }
 }

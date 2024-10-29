@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Avaliar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Avaliar.Designer.cs">
+      <DependentUpon>Avaliar.cs</DependentUpon>
+    </Compile>
     <Compile Include="CriarDev.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sob.Designer.cs">
+      <DependentUpon>sob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="telaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telaPrincipal.Designer.cs">
+      <DependentUpon>telaPrincipal.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Avaliar.resx">
+      <DependentUpon>Avaliar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CriarDev.resx">
       <DependentUpon>CriarDev.cs</DependentUpon>
     </EmbeddedResource>
@@ -103,6 +124,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="sob.resx">
+      <DependentUpon>sob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="telaPrincipal.resx">
+      <DependentUpon>telaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -118,6 +145,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\branco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aptoide_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -40,5 +40,12 @@ namespace ProjetoIngressos
             nw.Show();
             this.Close();
         }
+
+        private void entrarBtn_Click(object sender, EventArgs e)
+        {
+            telaPrincipal nw = new telaPrincipal();
+            nw.Show();
+            this.Close();
+        }
     }
 }

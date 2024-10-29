@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.label2 = new System.Windows.Forms.Label();
+            this.voltarBtn = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.criarContalbl = new System.Windows.Forms.Label();
@@ -37,7 +38,6 @@
             this.entrarBtn = new System.Windows.Forms.Button();
             this.label = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.voltarBtn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,6 +50,16 @@
             this.label2.Size = new System.Drawing.Size(106, 15);
             this.label2.TabIndex = 7;
             this.label2.Text = "Não possuo conta";
+            // 
+            // voltarBtn
+            // 
+            this.voltarBtn.Location = new System.Drawing.Point(12, 415);
+            this.voltarBtn.Name = "voltarBtn";
+            this.voltarBtn.Size = new System.Drawing.Size(75, 23);
+            this.voltarBtn.TabIndex = 7;
+            this.voltarBtn.Text = "Voltar";
+            this.voltarBtn.UseVisualStyleBackColor = true;
+            this.voltarBtn.Click += new System.EventHandler(this.voltarBtn_Click);
             // 
             // groupBox1
             // 
@@ -88,6 +98,7 @@
             this.criarContalbl.Size = new System.Drawing.Size(94, 13);
             this.criarContalbl.TabIndex = 5;
             this.criarContalbl.Text = "Não possuo conta";
+            this.criarContalbl.Click += new System.EventHandler(this.criarContalbl_Click);
             // 
             // emailBox
             // 
@@ -111,6 +122,7 @@
             this.entrarBtn.TabIndex = 4;
             this.entrarBtn.Text = "Entrar";
             this.entrarBtn.UseVisualStyleBackColor = true;
+            this.entrarBtn.Click += new System.EventHandler(this.entrarBtn_Click);
             // 
             // label
             // 
@@ -133,16 +145,6 @@
             this.label1.Size = new System.Drawing.Size(52, 20);
             this.label1.TabIndex = 3;
             this.label1.Text = "Email:";
-            // 
-            // voltarBtn
-            // 
-            this.voltarBtn.Location = new System.Drawing.Point(12, 415);
-            this.voltarBtn.Name = "voltarBtn";
-            this.voltarBtn.Size = new System.Drawing.Size(75, 23);
-            this.voltarBtn.TabIndex = 7;
-            this.voltarBtn.Text = "Voltar";
-            this.voltarBtn.UseVisualStyleBackColor = true;
-            this.voltarBtn.Click += new System.EventHandler(this.voltarBtn_Click);
             // 
             // LoginDev
             // 
