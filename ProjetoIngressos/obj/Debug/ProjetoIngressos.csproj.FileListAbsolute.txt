@@ -1,0 +1,14 @@
+C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\bin\Debug\ProjetoIngressos.exe.config
+C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\bin\Debug\ProjetoIngressos.exe
+C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\bin\Debug\ProjetoIngressos.pdb
+C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\obj\Debug\ProjetoIngressos.csproj.AssemblyReference.cache
+C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\obj\Debug\ProjetoIngressos.LoginDev.resources
+C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\obj\Debug\ProjetoIngressos.LoginUsuario.resources
+C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\obj\Debug\ProjetoIngressos.Properties.Resources.resources
+C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\obj\Debug\ProjetoIngressos.csproj.GenerateResource.cache
+C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\obj\Debug\ProjetoIngressos.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\obj\Debug\ProjetoIngressos.exe
+C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\obj\Debug\ProjetoIngressos.pdb
+C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\obj\Debug\ProjetoIngressos.inicial.resources
+C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\obj\Debug\ProjetoIngressos.CriarUsuario.resources
+C:\Users\Alunos\Desktop\ProjetoIngressos\ProjetoIngressos\obj\Debug\ProjetoIngressos.CriarDev.resources
